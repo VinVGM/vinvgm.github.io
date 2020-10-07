@@ -5,25 +5,21 @@ html {
 
 
 
-
-
-
-
-
-
 img {
-    background-color: rgb(51, 51, 59);
+    background-color: blue;
     float: right;
     border-radius: 20px;
     padding: 20px;
-    border: 20px ;
-
+    border: solid;
+    border-radius: 20px 0 20px 0;
+  
 }
 
 .heading {
     text-align: center;
     background-image: linear-gradient(45deg,aquamarine ,rgb(52, 151, 218), rgb(8, 230, 8)) ;
     border-radius: 20px;
+    padding: 20px;
 }
 
 h1 {
@@ -34,7 +30,6 @@ h1 {
 
 
 .cat {
-    border-radius: 20px;
     text-align: center;
     background-color: rgb(51, 51, 59);
     color: white;
@@ -44,4 +39,5 @@ footer {
     border-radius: 20px;
     background-color: rgb(51, 51, 59);
     color: white;
+    
 }
