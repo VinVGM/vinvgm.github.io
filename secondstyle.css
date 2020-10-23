@@ -11,6 +11,7 @@ h1 {
 }
 
 .loginhead {
+    position: relative;
     text-align:center ;
     border-radius: 20px;
     background-color: white;
@@ -59,3 +60,23 @@ h1 {
     down: 100px;
 }
 
+
+.logIn_button {
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    background: linear-gradient(45deg, blue, purple);
+    font-family: 'Sansita Swashed', cursive ; 
+    font-weight: bold;
+
+}
+
+.news{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    right: 100px;
+    
+    
+}
