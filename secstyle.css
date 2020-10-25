@@ -21,17 +21,6 @@ h1 {
     margin-right: 10px;
 }
 
-.username {
-    border-radius: 20px;
-    outline: none;
-
-}
-
-.password {
-    border-radius: 20px;
-    outline: none;
-    
-}
 
 
 .logIn_button {
@@ -58,8 +47,21 @@ h1 {
 }
 
 
-.logandnewscontainer {
-    display: flex;
+
+
+.username {
+    border-radius: 20px;
+    height: 25px;
+    width: 300px;
+    outline: none;
+    padding: 5px;
+    
 }
 
-
+.password {
+    border-radius: 20px;
+    height: 25px;
+    width: 300px;
+    outline: none;
+    padding:5px;
+}
