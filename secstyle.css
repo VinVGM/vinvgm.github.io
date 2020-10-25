@@ -1,0 +1,65 @@
+html{
+    background-color:rgb(196, 196, 196);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h1 {
+    text-align: center;
+    background-image: linear-gradient(45deg,aquamarine ,rgb(52, 151, 218), rgb(8, 230, 8));
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.loginhead {
+    background-color:white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    margin-right: 10px;
+}
+
+.username {
+    border-radius: 20px;
+    outline: none;
+
+}
+
+.password {
+    border-radius: 20px;
+    outline: none;
+    
+}
+
+
+.logIn_button {
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,aquamarine ,rgb(52, 151, 218), rgb(8, 230, 8));
+    outline: none;
+    padding: 20px;
+}
+
+.news {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.news1container{
+    background-color: grey;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+
+.logandnewscontainer {
+    display: flex;
+}
+
+
