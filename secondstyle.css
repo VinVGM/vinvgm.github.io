@@ -1,7 +1,7 @@
 html {
     font-family: 'Sansita Swashed', cursive;
     background-color: rgb(196,196,196) ;
-    font-size: medium;
+    
 }
 
 h1 {
@@ -100,12 +100,17 @@ h1 {
     background-color:  rgb(196,196,196) ;
     border-radius: 20px;
     padding: 20px;
-    border-radius: 20px;
-    border: solid;
-
-    
+    border: solid; 
 }
 
 .news1container {
     display: flex;
+}
+
+
+.heading{
+    text-align: center;
+    background: linear-gradient(aqua,blue,green);
+    padding: 20px;
+    border-radius: 20px;
 }
