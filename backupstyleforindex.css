@@ -19,7 +19,7 @@ h1 {
     text-align: center;
     margin: 1%;
     font-size:2vw;
-    width: 50%;
+    width: 33.3%;
 }
 
 
@@ -68,7 +68,7 @@ h1 {
 }
 
 .announcements{
-    width: 50%;
+    width: 33.3%;
     margin: 1%;
     
 }
@@ -104,6 +104,7 @@ h1 {
   }
 
   .discordinvite{
-      width: 50%;
+    width: 30%;
     border-radius: 20px ;
+    margin: 1%;
   }
