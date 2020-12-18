@@ -7,8 +7,10 @@ h1 {
     text-align: center;
     background-image: linear-gradient(45deg,aquamarine ,rgb(52, 151, 218), rgb(8, 230, 8));
     border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px    ;
+    
+    width: 100%;
 }
 
 
@@ -76,8 +78,24 @@ h1 {
     display: flex;
 }
 
+.discordinvite{
+    width: 30%;
+    border-radius: 20px ;
+    margin: 1%;
+}
+
+.Welcomehead {
+    padding: 20px;
+}
+
+.loginbuttondiv {
+    padding: 20px;
+}
+
+
+
   
-  @media screen and (max-width: 800px) {
+@media screen and (min-width: 28.75em) {
    
     .logandnewscontainer{
         display: inline;
@@ -92,19 +110,44 @@ h1 {
         width: 100%;
     }
 
+    .discordinvite{
+        width: 100%;
+    }
 
-  }
+    .discordwidget{
+        width: 100%;
+        
+    }
 
-  .Welcomehead {
-      padding: 20px;
-  }
 
-  .loginbuttondiv {
-      padding: 20px;
-  }
+}
 
-  .discordinvite{
-    width: 30%;
-    border-radius: 20px ;
-    margin: 1%;
-  }
+
+
+
+
+
+@media screen and (min-width: 40.5em){
+    .logandnewscontainer{
+        display: flex;
+    }
+
+    .announcements{
+        width: 33.3%;
+        
+    }
+
+    .loginhead {
+        width: 33.3%;
+    }
+
+    .discordinvite{
+        width: 33.3%;
+    }
+
+    .discordwidget{
+        width: 100%;
+        
+    }
+
+}
